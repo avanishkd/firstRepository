@@ -43,10 +43,10 @@ public class FlipkartLogin extends BaseClass {
 		dict=testData.loadTestData(this.getClass().getPackage().getName(), this.getClass().getSimpleName());
 		flipkartLoginPageObject = new FlipkartLoginPage();
 		
-		
+		/*
 		flipkartLoginPageObject.fromHometoLoginPage(dict.get("applicationURL"));
 		flipkartLoginPageObject.login(dict.get("UserId"),dict.get("Password"));
-		
+		*/
 		
 		/*excelRead=new ExcelUtility(System.getProperty("user.dir")+"\\ReadExcel.xlsx");
 		System.out.println(excelRead.getRowCount());
